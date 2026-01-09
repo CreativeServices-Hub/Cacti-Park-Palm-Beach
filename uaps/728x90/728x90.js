@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"728x90_atlas_1", frames: [[299,92,142,141],[299,235,122,76],[0,92,297,152],[0,0,728,90]]}
+		{name:"728x90_atlas_1", frames: [[730,74,142,141],[0,92,297,152],[0,0,728,90],[730,0,279,72]]}
 ];
 
 
@@ -34,21 +34,21 @@ lib.ssMetadata = [
 
 
 
-(lib.Bitmap15 = function() {
+(lib.Bitmap17 = function() {
 	this.initialize(ss["728x90_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap17 = function() {
+(lib.Bitmap18 = function() {
 	this.initialize(ss["728x90_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap18 = function() {
+(lib.Bitmap20 = function() {
 	this.initialize(ss["728x90_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -83,14 +83,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Bitmap15();
-	this.instance.setTransform(288,10,1.8852,1.8849);
+	this.instance = new lib.Bitmap20();
+	this.instance.setTransform(246,44,1.1255,1.1255);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.Symbol3, new cjs.Rectangle(288,10,230,143.3), null);
+}).prototype = getMCSymbolPrototype(lib.Symbol3, new cjs.Rectangle(246,44,314,81.1), null);
 
 
 (lib.Symbol2 = function(mode,startPosition,loop,reversed) {
